@@ -1,0 +1,33 @@
+.expenses {
+  width: 60%;
+  background-color: #6081a8;
+  margin: auto;
+  padding: 10px 0;
+  height: 450px;
+  overflow-y: auto;
+}
+
+.expenses::-webkit-scrollbar {
+  display: none;
+}
+
+.expenseFilter {}
+
+p {
+  color: white;
+  width: 92%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 480px) {
+  .expenses {
+    width: 100%;
+    background-color: #6081a8;
+  }
+
+  p {
+    width: 95%;
+  }
+
+
+}

@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.graph {
+  max-width: 60%;
+  margin: 0 auto 10px;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(177, 212, 243);
+  }
+
+  .graph {
+    margin-left: -50px;
+  }
+}
